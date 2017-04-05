@@ -66,6 +66,9 @@ namespace Reto4
 			// aapt resource value: 0x7f050007
 			public const int btnConsulta = 2131034119;
 			
+			// aapt resource value: 0x7f050009
+			public const int btnRegistrar = 2131034121;
+			
 			// aapt resource value: 0x7f050002
 			public const int btnSiguiente = 2131034114;
 			
