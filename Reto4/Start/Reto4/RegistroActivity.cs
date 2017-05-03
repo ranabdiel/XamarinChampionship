@@ -42,6 +42,8 @@ namespace Reto4
 
                 await serviceHelper.InsertarEntidad(email, "reto4+" + serviceHelper.items.Count, AndroidId);
 
+                Toast.MakeText(this, "Gracias por registrarte en Reto 4", ToastLength.Long).Show();
+
                 SetResult(Result.Ok, Intent);
             }
             catch (Exception exc)
